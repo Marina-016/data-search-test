@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local output / records (tracker Excel lives outside this repo)
+*.xlsx
+*.xls
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
