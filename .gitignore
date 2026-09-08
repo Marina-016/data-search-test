@@ -6,9 +6,12 @@ __pycache__/
 .venv/
 venv/
 
-# Local output / records (tracker Excel lives outside this repo)
+# Excel results / records (general rule: exclude; tracker Excel is
+# tracked explicitly under records/, see negation below)
 *.xlsx
 *.xls
+!records/
+!records/*.xlsx
 
 # OS / editor
 .DS_Store
